@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Dokumentasi Exercise 5: Remote File Transfer
+# Dokumentasi Tugas Persiapan
 
 ## 1. Bukti Koneksi SSH Sukses
 Koneksi remote menggunakan SSH berhasil dijalankan dari terminal laptop menuju server Linuxbox dengan memanfaatkan fitur Port Forwarding pada port 2222:
@@ -24,10 +24,8 @@ Hasil pemeriksaan nilai hash terbukti identik dan tidak mengalami kerusakan data
 * Kelebihan: Jauh lebih cepat karena hanya mengirim bagian file yang mengalami perubahan (delta sync), mempertahankan hak akses file asli, dan memiliki informasi progress bar yang jelas.
 * Kekurangan: Struktur perintahnya sedikit lebih rumit dibandingkan dengan perintah salin biasa.
 =======
-# praktikum-linux-sesi5
+# Refleksi Praktikum
 >>>>>>> 3320ba52af61cf9c4b8969651cdffd680bf5f7c1
-
-## 5. Refleksi Praktikum
 
 ### 1. Kesulitan Terbesar dan Solusinya
 Kesulitan terbesar terjadi pada saat proses konfigurasi koneksi awal SSH dari Git Bash menuju Linuxbox karena masalah IP internal NAT bawaan VirtualBox yang tidak dapat dijangkau secara langsung oleh host OS. Masalah ini berhasil dipecahkan dengan menerapkan teknik Port Forwarding pada port khusus 2222 melalui menu pengaturan jaringan VirtualBox, sehingga lalu lintas data lokal dari laptop bisa diteruskan dengan tepat ke dalam port 22 SSH milik mesin virtual Ubuntu.
