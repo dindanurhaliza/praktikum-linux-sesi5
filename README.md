@@ -7,12 +7,34 @@ Berikut adalah bukti tangkapan layar koneksi remote SSH yang berhasil dijalankan
 
 ## 2. Proses Transfer File via Rsync
 Proses pengiriman folder exercise pertama berhasil disimulasikan menggunakan perintah rsync:
-rsync -avz --progress ./exercise-1-csv/ ./exercise-1-backup/
+dindalasegar@dindalasegar:~/praktikum-linux-sesi5$ rsync -avz --progress ./exercise-1-csv/ ./exercise-1-backup/
+sending incremental file list
+created directory ./exercise-1-backup
+./
+data.csv
+         74,958 100%   40.24MB/s    0:00:00 (xfr#1, to-chk=6/8)
+prompt.txt
+            815 100%  397.95kB/s    0:00:00 (xfr#2, to-chk=5/8)
+solution.sh
+          1,004 100%  490.23kB/s    0:00:00 (xfr#3, to-chk=4/8)
+output/
+output/data_clean.csv
+         70,409 100%   22.38MB/s    0:00:00 (xfr#4, to-chk=2/8)
+output/data_normalized_date.csv
+         76,958 100%   14.68MB/s    0:00:00 (xfr#5, to-chk=1/8)
+output/gmail-customers.csv
+         40,454 100%    6.43MB/s    0:00:00 (xfr#6, to-chk=0/8)
+
+sent 38,706 bytes  received 187 bytes  77,786.00 bytes/sec
+total size is 264,598  speedup is 6.80
 
 ## 3. Verifikasi Integritas File (SHA256 Checksum)
 Hasil pemeriksaan nilai hash terbukti identik dan tidak mengalami kerusakan data:
-* Hash File Asli   : a806ef2dbfd6187ecffb8670b909d35960637e30e966d52eec028ae16dde97f5
-* Hash File Backup : a806ef2dbfd6187ecffb8670b909d35960637e30e966d52eec028ae16dde97f5
+* dindalasegar@dindalasegar:~/praktikum-linux-sesi5$ sha256sum ./exercise-1-csv/data.csv
+a806ef2dbfd6187ecffb8670b909d35960637e30e966d52eec028ae16dde97f5  ./exercise-1-csv/data.csv
+* dindalasegar@dindalasegar:~/praktikum-linux-sesi5$ sha256sum ./exercise-1-backup/data.csv
+a806ef2dbfd6187ecffb8670b909d35960637e30e966d52eec028ae16dde97f5  ./exercise-1-backup/data.csv
+
 
 ## 4. Analisis Perbandingan SCP vs Rsync
 
