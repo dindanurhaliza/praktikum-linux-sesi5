@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Dokumentasi Tugas Persiapan
 
 ## 1. Bukti Koneksi SSH Sukses
@@ -25,7 +25,6 @@ Hasil pemeriksaan nilai hash terbukti identik dan tidak mengalami kerusakan data
 * Kekurangan: Struktur perintahnya sedikit lebih rumit dibandingkan dengan perintah salin biasa.
 =======
 # Refleksi Praktikum
->>>>>>> 3320ba52af61cf9c4b8969651cdffd680bf5f7c1
 
 ### 1. Kesulitan Terbesar dan Solusinya
 Kesulitan terbesar terjadi pada saat proses konfigurasi koneksi awal SSH dari Git Bash menuju Linuxbox karena masalah IP internal NAT bawaan VirtualBox yang tidak dapat dijangkau secara langsung oleh host OS. Masalah ini berhasil dipecahkan dengan menerapkan teknik Port Forwarding pada port khusus 2222 melalui menu pengaturan jaringan VirtualBox, sehingga lalu lintas data lokal dari laptop bisa diteruskan dengan tepat ke dalam port 22 SSH milik mesin virtual Ubuntu.
