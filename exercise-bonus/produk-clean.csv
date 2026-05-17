@@ -1,0 +1,20 @@
+```csv
+```,,,,,
+kode_produk,Nama_produk,kategori,harga,stok,last_updated
+PRD-001,Baju Bayi Lucu,pakaian,85000,120,2026-01-15T08:30:00
+PRD-002,Sepatu Running,footwear,450000,45,2024-05-08T10:40:00Z
+PRD-003,Tas Selempang Kulit,tas,320000,30,2026-02-03T14:22:11
+PRD-004,Kaos Polo Pria,pakaian,95000,200,2024-06-01T00:00:00Z
+PRD-005,Celana Jeans Slim,pakaian,275000,88,2026-01-28T09:15:44
+PRD-006,Topi Baseball,aksesoris,65000,150,2026-03-10T11:00:00
+PRD-007,Jaket Kulit Asli,pakaian,850000,20,2026-04-15T09:00:00
+PRD-008,Sandal Jepit Impor,footwear,55000,300,2026-02-20T16:45:30
+PRD-009,Baju Renang Anak,pakaian,130000,58,2026-04-22T17:55:00
+PRD-010,Dompet Kulit Pria,tas,210000,75,2026-04-01T07:30:00
+PRD-011,Kacamata Hitam,aksesoris,175000,40,2026-03-25T13:10:55
+PRD-012,Sepato Formal,footwear,520000,18,2024-06-11T00:00:00Z
+PRD-013,Belt Kulit Anak,aksesoris,45000,500,2026-01-05T10:20:00
+PRD-014,Rok Mini Wanita,pakaian,165000,95,2024-05-23T00:00:00Z
+PRD-015,Sarung Tangan Kulit,aksesoris,89000,110,2026-02-14T08:00:00
+PRD-016,Celana Pendek Sport,pakaian,115000,140,2024-07-15T00:00:00Z
+PRD-017,Ikat Pinggang Anyam,aksesoris,72000,85,2026-05-01T12:30:00

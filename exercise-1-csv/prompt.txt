@@ -1,0 +1,6 @@
+Generate file CSV berisi 1000 baris data customer dengan kolom: id, nama, email, no_hp, tanggal_daftar, status. Berikan baris header pada baris pertama. Ikuti batasan berikut:
+1. tanggal_daftar menggunakan campuran format: dd/mm/yyyy, yyyy-mm-dd, dan dd-mm-yy.
+2. status menggunakan campuran format: active, inactive, banned, dan pastikan ada beberapa typo seperti aktive, Active, INACTIVE.
+3. Email didominasi oleh domain @gmail.com, @yahoo.com, @hotmail.com, dan pastikan ada beberapa email yang duplikat (menggunakan email yang sama untuk baris berbeda).
+4. Nama menggunakan variasi nama Indonesia, dan buat beberapa nama memiliki typo kapitalisasi (misal: semua huruf kecil atau huruf kapital di tengah kata).
+5. Hasilkan data dalam format raw text CSV langsung tanpa penjelasan tambahan agar mudah saya salin.

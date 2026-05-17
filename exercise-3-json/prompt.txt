@@ -1,0 +1,5 @@
+Generate 1000 baris format JSON log data untuk sebuah aplikasi microservice e-commerce. Setiap baris berupa objek JSON mandiri (JSON Lines/ndjson) dengan properti: timestamp (format ISO 8601), level (INFO, WARN, ERROR, DEBUG), service_name (auth-service, payment-service, order-service, inventory-service), message, dan metadata (berisi request_id, user_id, dan jika level ERROR tambahkan error_code). Constraints:
+1. Level campuran, dengan ERROR sekitar 5%
+2. Service payment-service memiliki beberapa log ERROR dengan error_code: PAYMENT_FAILED
+3. Rentang waktu bebas pada tahun 2026
+4. Hasilkan data dalam format mentah langsung tanpa penjelasan tambahan agar mudah saya salin.

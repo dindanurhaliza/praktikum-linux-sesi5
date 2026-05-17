@@ -1,0 +1,7 @@
+Generate 5000 baris nginx access log format combined: IP - - [timestamp] "METHOD /path HTTP/1.1" status size "referer" "user-agent" response_time_ms. Constraints:
+1. Status code campuran 200, 301, 304, 404, 500, 502, 503
+2. Beberapa IP suspicious (request 100+ kali ke /admin/login)
+3. Beberapa endpoint slow (response time > 2000ms)
+4. Timestamp format Apache: [10/May/2026:14:23:45 +0700]
+5. Span 2 days (10-11 May 2026)
+6. Hasilkan data dalam format raw text log langsung tanpa penjelasan tambahan agar mudah saya salin.

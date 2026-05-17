@@ -1,0 +1,5 @@
+Generate data CSV sebanyak 20 baris untuk file produk-lama.csv dengan kolom: kode_produk,nama_produk,kategori,harga,stok,last_updated. Constraints data kotor:
+1. Beberapa nama_produk ditulis acak huruf besar-kecilnya dan mengandung spasi ganda (contoh: "BAJU   bayi LUcu", "sePAtu   RunNiNG").
+2. Kolom kategori mengandung typo variasi (contoh: "pakaian", "Pakaian", "clothes", "CLOTHES").
+3. Ada data duplikat untuk kode_produk yang sama, tetapi nilai last_updated berbeda (beberapa pakai format ISO 8601, beberapa pakai format Unix epoch timestamp seperti 1715164800).
+4. Berikan data mentah langsung tanpa penjelasan tambahan agar mudah saya salin.

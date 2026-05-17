@@ -1,0 +1,5 @@
+2026-05-10 08:12:34|INFO|auth-service|User login successful
+2026-05-10 08:13:01|WARN|payment-service|Slow payment gateway response
+2026-05-10 08:14:22|ERROR|order-service|Order creation failed
+2026-05-10 08:15:05|DEBUG|inventory-service|Querying stock level
+2026-05-10 08:16:48|INFO|auth-service|Token refreshed
