@@ -3,7 +3,8 @@
 
 ## 1. Bukti Koneksi SSH Sukses
 Berikut adalah bukti tangkapan layar koneksi remote SSH yang berhasil dijalankan melalui terminal Git Bash:
-![Bukti SSH Sukses](tugas persiapan.png)
+<img width="3000" height="2000" alt="tugas persiapan" src="https://github.com/user-attachments/assets/04758411-5b97-4495-83ac-88e3cc349984" />
+
 
 ## 2. Proses Transfer File via Rsync
 Proses pengiriman folder exercise pertama berhasil disimulasikan menggunakan perintah rsync:
