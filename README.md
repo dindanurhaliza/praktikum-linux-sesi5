@@ -2,8 +2,8 @@
 # Dokumentasi Tugas Persiapan
 
 ## 1. Bukti Koneksi SSH Sukses
-Koneksi remote menggunakan SSH berhasil dijalankan dari terminal laptop menuju server Linuxbox dengan memanfaatkan fitur Port Forwarding pada port 2222:
-ssh dindalasegar@127.0.0.1 -p 2222
+Berikut adalah bukti tangkapan layar koneksi remote SSH yang berhasil dijalankan melalui terminal Git Bash:
+![Bukti SSH Sukses](tugas persiapan.png)
 
 ## 2. Proses Transfer File via Rsync
 Proses pengiriman folder exercise pertama berhasil disimulasikan menggunakan perintah rsync:
